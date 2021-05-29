@@ -4,15 +4,12 @@
 	box-sizing: border-box;
 }
 html{
-    margin: 5% 5%;
+    margin: 5% 6%;
     border-width: 100vw;
 }
 body{
      min-height: 100vh; 
      width: 100%;
-   /* border-left: 2.5px solid rgb(11, 28, 65);
-    border-top: 2.5px solid rgb(11, 28, 65);
-    border-bottom: 2.5px solid rgb(11, 28, 65); */
     border: 2.5px solid rgb(11, 28, 65);
     
     padding: 5% 5%;
@@ -88,6 +85,12 @@ pre {
        
    } pre {
     font-size: 8px;
+    white-space: pre-wrap;
+    word-wrap: break-all;
+    text-align: justify;
+  }
+  html{
+      margin-left: 3%;
   }
       
   }
