@@ -5,11 +5,11 @@ box-sizing: content-box;
 
 body{
     margin: 10px 0px;
-    margin-left: 10px;
+    margin-left: 5%;
     border-left: 2.5px solid rgb(11, 28, 65);
     border-top: 2.5px solid rgb(11, 28, 65);
     border-bottom: 2.5px solid rgb(11, 28, 65);
-    padding: 10px 12px;
+    padding: 5% 5%;
 }
 
 pre{

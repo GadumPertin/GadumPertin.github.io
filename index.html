@@ -220,7 +220,7 @@
     <script>
         let dates = document.getElementById("date");
         let d = new Date();
-        dates.textContent = d.getDate() + '/' + d.getMonth() + '/' + d.getFullYear();
+        dates.textContent = d.getDate() + '/' + Number(d.getMonth() + 1) + '/' + d.getFullYear();
     </script>
 </body>
 
