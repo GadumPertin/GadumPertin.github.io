@@ -5,6 +5,7 @@
 }
 html{
     margin: 5% 5%;
+    border-width: 100vw;
 }
 body{
      min-height: 100vh; 
@@ -13,7 +14,7 @@ body{
     border-top: 2.5px solid rgb(11, 28, 65);
     border-bottom: 2.5px solid rgb(11, 28, 65); */
     border: 2.5px solid rgb(11, 28, 65);
-    border-width: 100%;
+    
     padding: 5% 5%;
 }
 
@@ -21,7 +22,7 @@ body{
 table,td,th{
     border: 1px solid black;
     border-collapse: collapse;
-    padding: .3% .3%;
+    padding: .1% .1%;
     font-size: 12px;
 }
 
@@ -67,12 +68,26 @@ table,td,th{
 }
 
 .career{
-    width: 95%;
+    width: 98%;
 }
 
 pre {
     white-space: pre-wrap;
-    word-wrap: break-word;
+    word-wrap: break-all;
     text-align: justify;
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  @media screen and (max-width: 500px){
+    body{
+       border-left: 2.5px solid rgb(11, 28, 65);
+       border-top: 2.5px solid rgb(11, 28, 65);
+       border-bottom: 2.5px solid rgb(11, 28, 65); 
+       border-right: none;
+       font-size: 12px;
+       
+   } pre {
+    font-size: 8px;
+  }
+      
   }
