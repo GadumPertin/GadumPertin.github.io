@@ -1,37 +1,41 @@
-*{
-box-sizing: content-box;
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
 }
-
-
+html{
+    margin: 5% 5%;
+}
 body{
-    margin: 10px 0px;
-    margin-left: 5%;
-    border-left: 2.5px solid rgb(11, 28, 65);
+     min-height: 100vh; 
+     width: 100%;
+   /* border-left: 2.5px solid rgb(11, 28, 65);
     border-top: 2.5px solid rgb(11, 28, 65);
-    border-bottom: 2.5px solid rgb(11, 28, 65);
+    border-bottom: 2.5px solid rgb(11, 28, 65); */
+    border: 2.5px solid rgb(11, 28, 65);
+    border-width: 100%;
     padding: 5% 5%;
 }
 
-pre{
-    font-size: 16px;
-}
 
 table,td,th{
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 5px 5px;
+    padding: .3% .3%;
     font-size: 12px;
 }
 
 
 .top1{
     grid-area: second;
+    margin-top: 5%;
 
 }
 .top{
     grid-area: first;  
     border-radius: 60%;
-    margin-left: 50px;
+    margin-left: 30%;
+   
 }
 
 
@@ -63,6 +67,12 @@ table,td,th{
 }
 
 .career{
-    width: 80%;
+    width: 95%;
 }
 
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+    font-size: 14px;
+  }
