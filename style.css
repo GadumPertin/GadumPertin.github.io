@@ -20,8 +20,15 @@ table,td,th{
     border: 1px solid black;
     border-collapse: collapse;
     padding: .1% .1%;
-    font-size: 12px;
+    font-size: 14px;
 }
+td {
+    height: 25px;
+    text-align: center;
+    width: 80vw;
+    padding: 4px 3px;
+  }
+
 
 
 .top1{
@@ -65,14 +72,14 @@ table,td,th{
 }
 
 .career{
-    width: 98%;
+    width: 100%;
 }
 
 pre {
     white-space: pre-wrap;
     word-wrap: break-all;
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   @media screen and (max-width: 500px){
